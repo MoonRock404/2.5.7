@@ -10,16 +10,17 @@ public class MediaLibRunnerStatic
     //Step 1
     System.out.println(MediaLib.getOwner() + "'s Library");
 
+    //Step 8
     MediaLib.changeOwner("Siddhi");
     System.out.println(MediaLib.getOwner());
 
     MediaLib.owner = "Chandini";
     System.out.println(MediaLib.owner);
 
-    //Step 14
+    //Step 14 / 17
     System.out.println(MediaLib.getNumEntries());
 
-    //Step 16
+    //Step 22
     MediaLib myLib = new MediaLib();
     Movie newMovie = new Movie("Raiders of the Lost Ark", 1.9);
     myLib.addMovie(newMovie);
